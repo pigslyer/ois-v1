@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Gravitacija
 {
 	private static final double M = 5.972E24;
@@ -7,6 +9,12 @@ public class Gravitacija
 
 	public static void main(String[] args)
 	{
+		Scanner sc = new Scanner(System.in);
+		
+		double visina = sc.nextDouble();
+		
+		izpis(visina, pospesek(visina));
+
 		System.out.println("OIS je zakon!");
 	}
 
