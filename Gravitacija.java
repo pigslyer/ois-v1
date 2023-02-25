@@ -15,4 +15,7 @@ public class Gravitacija
 	}
 
 
+	public static void izpis(double visina, double pospesek){
+		System.out.println(visina+":   "+pospesek);
+	}
 }
